@@ -4,12 +4,16 @@
 
 ## 🎙️ Project Overview
 
-This project demonstrates a **REALTIME**, fully **ON-DEVICE** Text-to-Speech (TTS) system implemented in Unity.  
-Built with **Unity Inference Engine** and optimized through **asynchronous processing**, it runs both **grapheme-to-phoneme (G2P)** conversion and **speech synthesis** locally on the device—without relying on any external APIs or internet connection.
+This project demonstrates a **REALTIME**, fully **ON-DEVICE**, and **LIGHTWEIGHT** Text-to-Speech (TTS) system implemented in Unity.
 
-This eliminates latency, network dependency, and additional costs often associated with cloud-based solutions.  
-By integrating the **Piper TTS engine**, the system supports **multiple voices and languages**, delivering smooth and responsive audio generation even on mid-range hardware.
+Powered by the **Unity Inference Engine** and optimized through **asynchronous processing**, both **grapheme-to-phoneme (G2P)** conversion and **speech synthesis** run locally—without requiring any external APIs or internet connection.
 
+Each model is highly compact:  
+- **Low / Medium quality voices** are around **60MB**,  
+- **High-quality voices** remain under **108MB**,  
+making this solution ideal for mobile and embedded applications.
+
+By integrating the **Piper TTS engine**, the system supports **multiple voices and languages**, delivering smooth and responsive audio generation even on mid-range hardware—completely offline.
 
 ---
 ## 🚀 Usage
